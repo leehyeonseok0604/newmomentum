@@ -7,3 +7,12 @@ const bgImage = document.createElement("img");
 bgImage.src = `img/${chosenImage}`;
 
 document.body.appendChild(bgImage);
+
+bgImage.id="imgger";
+
+const myImg =document.getElementById("imgger");
+if (myImg && myImg.style) {
+    myImg.style.height="100vh";
+    myImg.style.width="100%";
+}
+
