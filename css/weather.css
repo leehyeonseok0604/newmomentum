@@ -1,0 +1,15 @@
+#weather {
+  border-radius: 20px;
+  width: auto;
+  height: 50px;
+  background-color: rgba(200, 159, 247, 0.5);
+  bottom: 100px;
+}
+#weather span {
+  color: aliceblue;
+  font-weight: 800;
+  font-size: large;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

@@ -2,13 +2,27 @@
   z-index: -1;
   position: absolute;
 }
+.clockfather,
 #clock,
-.hidden,
 #login-form,
 #greeting,
 #todo-form,
-#todo-list,
-#quote {
+#todo-list {
   position: relative;
-  z-index: 10;
+}
+.clockfather,
+#clock {
+  z-index: 1;
+}
+#login-form {
+  z-index: 5;
+}
+#greeting {
+  z-index: 3;
+}
+#todo-form {
+  z-index: 7;
+}
+#todo-list {
+  z-index: 9;
 }

@@ -1,3 +1,66 @@
-.hidden {
-  display: none;
+/* login-form은 submit란의 parent이고  greeting은 답변이다. */
+
+#login-form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  justify-content: center;
+  background-color: rgb(129, 24, 216);
+  width: 260px;
+  height: 300px;
+  top: 100px;
+  padding-top: 20px;
+  border-radius: 25px;
+}
+#login-form input:first-child {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.001);
+  margin-right: 5px;
+  padding: 50px 0px;
+  border: none;
+  border-radius: 40px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  border-top: 1px solid rgba(0, 0, 0, 0.2);
+  height: 30px;
+}
+#login-form input:first-child::placeholder {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 800;
+  font-size: 15px;
+  color: yellowgreen;
+}
+#login-form input:last-child {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 140px;
+  height: 30px;
+  border: none;
+  border-radius: 15px;
+  background-color: rgba(0, 0, 0, 0.001);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  border-top: 1px solid rgba(0, 0, 0, 0.2);
+  padding: 30px 30px;
+  color: azure;
+}
+
+#greeting {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 800;
+  font-size: xx-large;
+  color: whitesmoke;
+  display: flex;
+  justify-content: space-between;
+  justify-content: center;
+  background-color: rgba(129, 24, 216, 0.8);
+  width: 260px;
+  height: 300px;
+  bottom: 200px;
+  border-radius: 25px;
 }
