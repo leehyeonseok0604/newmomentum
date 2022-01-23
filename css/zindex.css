@@ -1,0 +1,14 @@
+#imgger {
+  z-index: -1;
+  position: absolute;
+}
+#clock,
+.hidden,
+#login-form,
+#greeting,
+#todo-form,
+#todo-list,
+#quote {
+  position: relative;
+  z-index: 10;
+}
