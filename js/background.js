@@ -17,4 +17,3 @@ if (myImg && myImg.style) {
     myImg.style.width="100%";
 }
 
-// zindex 

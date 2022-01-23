@@ -1,6 +1,14 @@
 .clockfather {
   display: flex;
-  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  box-shadow: 10px 10px 10px yellow;
+  height: 100px;
+  width: 100px;
+  background-color: brown;
+  margin-top: 100px;
 }
 #clock {
+  color: white;
 }
